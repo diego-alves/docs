@@ -8,8 +8,9 @@ Welcome to Documentacao's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Conteudo:
 
+   disksize
 
 
 Indices and tables
