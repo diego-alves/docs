@@ -1,6 +1,6 @@
-===========================
 .. highlight:: shell
 
+===========================
 Aumentar o tamanho do Disco
 ===========================
 
@@ -10,13 +10,13 @@ Aumentar o tamanho do Disco
 
     $ df -ha
 
-1. Verifique o espaço livre no vgs:
+2. Verifique o espaço livre no vgs:
 
 .. code-block:: console
     
     # vgs
 
-Extenda o tamanho da lvm:
+3. Extenda o tamanho da lvm:
 
 .. code-block:: console
 
@@ -24,13 +24,13 @@ Extenda o tamanho da lvm:
     # # ou
     # lvextend -L+1G /dev/mapper/vg0-opt
 
-Aumente o tamanho do filesystem:
+4. Aumente o tamanho do filesystem:
 
 .. code-block:: console
 
     # resize2fs /dev/mapper/vg0-opt
 
-Caso ocorra o erro:
+5. Caso ocorra o erro:
 
 resize2fs: Bad magic number in super-block while trying to open /dev/mapper/system-usr
 Couldn't find valid filesystem superblock.
@@ -38,8 +38,7 @@ Tente Executar:
 
 .. code-block:: console
 
-    X xfs_growfs /dev/mapper/system-usr
-
+    # xfs_growfs /dev/mapper/system-usr
 
 
 Referencias
