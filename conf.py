@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Documentação'
+project = 'Documentacao'
 copyright = '2018, Diego Alves'
 author = 'Diego Alves'
 
@@ -128,7 +128,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Documentao.tex', 'Documentação Documentation',
+    (master_doc, 'Documentao.tex', 'Documentacao Documentation',
      'Diego Alves', 'manual'),
 ]
 
@@ -138,7 +138,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'documentao', 'Documentação Documentation',
+    (master_doc, 'documentao', 'Documentacao Documentation',
      [author], 1)
 ]
 
@@ -149,7 +149,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Documentao', 'Documentação Documentation',
+    (master_doc, 'Documentao', 'Documentacao Documentation',
      author, 'Documentao', 'One line description of project.',
      'Miscellaneous'),
 ]

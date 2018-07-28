@@ -1,9 +1,9 @@
-.. Documentação documentation master file, created by
+.. Documentacao documentation master file, created by
    sphinx-quickstart on Sat Jul 28 08:53:20 2018.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Documentação's documentation!
+Welcome to Documentacao's documentation!
 ========================================
 
 .. toctree::
