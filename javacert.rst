@@ -14,13 +14,25 @@ Para solucionar esse problema, uma das opções é importar o certificado na key
 Importando o certificado
 ========================
 
+Via ansible
+-----------
+
+Se possuir o ansible instalado, com apenas a execução abaixo é possível importar o certificado:
+
+.. code-block:: console
+
+    $ ansible <host> -mjava_cert -a"executable=/usr/lib/jvm/jdk8/bin/keytool cert_url=<dominio> keystore_path=/usr/lib/jvm/jdk8/jre/lib/security/cacerts keystore_pass=changeit" --become
+
+Manual
+------
+
 1. Extraia o certificado com o comando abaixo.
 
 .. code-block:: console
 
     $ echo | openssl s_client -connect <dominio>:443
 
-2. Copie e cole todo o conteúdo entre `-----BEGIN CERTIFICATE-----` e `-----END CERTIFICATE-----` inclusive.
+2. Copie e cole todo o conteúdo entre `-----BEGIN CERTIFICATE-----` e `-----END CERTIFICATE-----` inclusive, em um arquivo.
 
 3. Importe o certificado com o comando abaixo.
 
