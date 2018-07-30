@@ -15,6 +15,7 @@ Welcome to Documentacao's documentation!
    :caption: Conteudo:
 
    disksize
+   javacert
 
 
 Indices and tables
