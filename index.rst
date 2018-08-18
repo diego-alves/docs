@@ -18,8 +18,8 @@ Welcome to Documentacao's documentation!
    javacert
 
 
-Indices and tables
-==================
+Indices e Tabelas
+=================
 
 * :ref:`genindex`
 * :ref:`modindex`
